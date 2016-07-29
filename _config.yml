@@ -7,7 +7,7 @@ menu:
   博客首页: /Home
   作品展示: /works
   留言打卡: /about
-  前端导航: /FrontEndGuide
+  # 前端导航: /FrontEndGuide
 # 静心阅读: /tags
 # 光影之路: /instagram
 # 随笔: /tags/随笔
@@ -24,13 +24,13 @@ favicon: /img/favicon.png
 ## RSS requires a plugin to take effect | 使用 RSS 需先安装对应插件
 ## https://github.com/hexojs/hexo-generator-feed
 subnav:
-  mail: "http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=PAkNDgsKBQ4MCnxNTRJfU1E"
-  github: "https://github.com/luuman"
-  zhihu: "https://www.zhihu.com/people/luuman"
-  weibo: "http://weibo.com/lishangmou"
-  google: "http://i.youku.com/shangmou"
-  twitter: "http: //twitter.com/luuman"
-  facebook: "#"
+  # mail: "http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=PAkNDgsKBQ4MCnxNTRJfU1E"
+  github: "https://github.com/kisekied"
+  # zhihu: "https://www.zhihu.com/people/luuman"
+  # weibo: "http://weibo.com/lishangmou"
+  # google: "http://i.youku.com/shangmou"
+  # twitter: "http: //twitter.com/luuman"
+  # facebook: "#"
   rss: /atom.xml
   # linkedin: "https://www.linkedin.com/in/%E5%BF%A0%E6%88%90-%E6%9D%8E-a48562b1"
   # douban: "#"
@@ -110,7 +110,7 @@ toc_nowrap: false
 
 # 自定义"阅读全文"链接按钮的显示文字
 # Customize the text on excerpt link
-excerpt_link: 大航海 #修改more>>的文字
+excerpt_link: more>> #修改more>>的文字
 
 # 是否显示边栏中的搜索框（仅样式，未添加搜索功能）
 # Search Box in left column
@@ -129,17 +129,17 @@ tagcloud: true
 
 # Blogroll, Link exchange | 友情链接
 # friends: false
-friends:
-  MOxFIVE: http://MOxFIVE.github.io/
-  DoubleV: http://www.vsay.cn/
-  兮兮: http://www.ccwebsite.com/
-  翁天信: http://blog.dandyweng.com/
-  潘利强: http://www.plqblog.com/views/index.php
-  hankin: http://www.hankin.cn/
-  waydrow: http://blog.waydrow.com/
+# friends:
+#   MOxFIVE: http://MOxFIVE.github.io/
+#   DoubleV: http://www.vsay.cn/
+#   兮兮: http://www.ccwebsite.com/
+#   翁天信: http://blog.dandyweng.com/
+#   潘利强: http://www.plqblog.com/views/index.php
+#   hankin: http://www.hankin.cn/
+#   waydrow: http://blog.waydrow.com/
 
 #是否开启“关于我”。
-aboutme: 纯海迷、爱运动、爱交友、爱旅行、喜欢接触新鲜事物、迎接新的挑战，更爱游离于错综复杂的编码与逻辑中
+aboutme: 
 #aboutme: false
 
 # 是否在新窗口打开链接
@@ -167,8 +167,8 @@ baidushare: true
 
 # 百度、谷歌站长验证。填写 HTML 标签 content
 # Site Verification for Google and Baidu. HTML label content.
-google_site: # pFW527fHrjfI0si2w4NQ0w3cTw12AvvuohAu1PUfqKA
-baidu_site: #c167b9feb4f0b208b712c79629c188e4
+# google_site: # pFW527fHrjfI0si2w4NQ0w3cTw12AvvuohAu1PUfqKA
+# baidu_site: #c167b9feb4f0b208b712c79629c188e4
 
 # Fill in Google Analytics tracking ID, #e.g. UA-XXXXX-X, or Baidu Analytics hash key
 google_analytics:
@@ -178,7 +178,7 @@ baidu_analytics:
 # http://ibruce.info/2015/04/04/busuanzi/
 visit_counter:
   on: true
-  site_visit: 海贼到访数
+  site_visit: 访客数量
   page_visit: 本页阅读量
 
 # A标签提示
